@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<string name="app_name">Tip Calculator</string>
+<string name="service_cost_hint">Enter the service cost before tax</string>
+<string name="service_quality">How was the service?</string>
+<string name="round_up">Round up?</string>
+<string name="calculate">Calculate</string>
+<string name="tip_result">Tip amount</string>
+<string name="total_amount">Total: %s</string>
+<string name="excellent">Excellent: 20%</string>
+<string name="good">Good: 18%</string>
+<string name="ok">Ok: 15%</string>
+</resources>
