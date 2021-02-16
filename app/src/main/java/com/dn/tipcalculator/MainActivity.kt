@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun calculateTip() {
         val amount = binding.serviceCost.text.toString().toDoubleOrNull()
+        val tax = binding.tax.text.toString().toDoubleOrNull()
         if (amount == null) {
             binding.total.text = ""
             binding.tipResult.text = "Tip amount"
@@ -40,7 +41,12 @@ class MainActivity : AppCompatActivity() {
                 else -> .15
             }
             val tip = amount * percentage
-            total = amount + tip
+            if(tax == null) {
+                total = amount + tip
+            }else{
+                total = amount + tip + tax
+            }
+
 
             binding.tipResult.text = "Tip: " + NumberFormat.getCurrencyInstance().format(tip).toString()
             if (binding.roundUpSwitch.isChecked) {

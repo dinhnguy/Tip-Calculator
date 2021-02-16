@@ -11,4 +11,5 @@
 <string name="excellent">Excellent: 20%</string>
 <string name="good">Good: 18%</string>
 <string name="ok">Ok: 15%</string>
+    <string name="tax">tax</string>
 </resources>

@@ -5,8 +5,9 @@
     <string name="round_up">Round up?</string>
     <string name="calculate">Calculate</string>
     <string name="tip_result">Tip amount</string>
-    <string name="total_amount">Total: %s</string>
+    <string name="total_amount">Total (including tax): %s</string>
     <string name="excellent">Excellent: 20%</string>
     <string name="good">Good: 18%</string>
-    <string name="ok">Ok: 15%</string>
+    <string name="ok">Okay: 15%</string>
+    <string name="tax">Tax</string>
 </resources>
